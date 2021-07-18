@@ -226,9 +226,30 @@ footer{
 
 @media screen and (max-width: 480px){
 
-    .caixa, .nav ,.curriculo, .descricao, .nav li{
+    .caixa,.descricao{
 
         width: auto;
+
+    }
+
+    .curriculo,{
+
+        width: auto;
+        padding: auto;
+
+    }
+
+    .curriculo li {
+
+        display: inline-block;
+        text-align: center;
+        width: auto;
+        vertical-align: top;
+        margin: 0 auto;
+        padding: auto;
+        box-sizing: border-box;
+        border: 4px solid black;
+        border-radius: 10px;
 
     }
 
