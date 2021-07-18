@@ -119,23 +119,6 @@ footer{
 
 }
 
-@media screen and (max-width: 480){
-
-    h1{
-
-        text-align: center;
-
-    }
-
-    nav a{
-
-        position: static;
-
-    }
-
-
-}
-
 .biografia{
 
     margin: 0 10%;
@@ -241,3 +224,25 @@ footer{
 
 }
 
+@media screen and (max-width: 480px){
+
+    .caixa, .nav ,.curriculo, .descricao, .nav li{
+
+        width: auto;
+
+    }
+
+    h1{
+
+        text-align: center;
+
+    }
+
+    nav{
+
+        position: static;
+
+    }
+
+
+}
