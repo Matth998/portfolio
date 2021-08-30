@@ -60,9 +60,9 @@ nav a:hover{
 
 
 .curriculo {
-    width: 100%;
+    width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50 0;
 }
 
 .curriculo a{
@@ -91,7 +91,7 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 3.5%;
+    margin: 3% 7%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 4px solid black;
@@ -101,7 +101,7 @@ nav a:hover{
 
 .imagens{
 
-    margin: 30spx;
+    margin:30spx;
 }
 
 
