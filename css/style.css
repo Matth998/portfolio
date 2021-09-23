@@ -1,6 +1,6 @@
 header{
 
-    background: darkblue;
+    background: blue;
     padding: 20px 0;
 
 }
@@ -16,7 +16,7 @@ header{
 
 main {
 
-    background: linear-gradient(darkblue,blue,lightblue, white);
+    background: linear-gradient(blue, darkblue, black);
 
 }
 
@@ -68,14 +68,14 @@ nav a:hover{
 .curriculo a{
 
     font-family: 'Merriweather', serif;
-    color:black;
+    color:white;
     text-decoration: none;
 
 }
 
 .curriculo li:hover{
 
-    border-color: gray;
+    border-color: lightblue;
     text-decoration: underline;
 
 }
@@ -94,21 +94,21 @@ nav a:hover{
     margin: 3% 7%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 4px solid black;
+    border: 4px solid white;
     border-radius: 10px;
 
 }
-
-.imagens{
-
-    margin:30spx;
-}
-
 
 
 .curriculo h2 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.imagens{
+
+    margin-left: -7px;
+
 }
 
 .descricao {
@@ -120,7 +120,7 @@ footer{
 
     text-align: center;
     background: url("bg.jpg");
-    padding: 40px 0;
+    padding: 10px 0;
 
 }
 
