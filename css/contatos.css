@@ -1,0 +1,30 @@
+.contatos{
+
+    background: var(--vermelho-claro);
+    color:var(--branco);
+
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+}
+
+.contatos-lista{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.contato-img{
+
+    border: 4px solid var(--branco);
+    border-radius: 16px;
+    padding: 1.5rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,10 @@
+footer{
+
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 10px 0;
+    color: var(--branco);
+    font-family: var(--montserrat);
+    
+}
+

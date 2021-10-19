@@ -1,90 +1,95 @@
 <!DOCTYPE html>
-<html lang=en_us>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" >
-        <title> Portifolio Matheus Da Silva</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/conhecimento.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Matheus Silva</title>
+</head>
+<body>
+    
+    <header class="cabecalho container">
+        <img class="cabecalho-imagem" src="img/logo.png" alt="Cartoon do Matheus">
+        <nav  class="cabecalho-nav">
+            <ul>
+                <li class="cabecalho-link"><a href="#" id="sobre"> Sobre</a></li>
+                <li class="cabecalho-link"><a href="pdf/curriculo.pdf" target="blank"> Curriculo </a></li>
+                <li class="cabecalho-link"><a href="#" id="conhecimentos"> Conhecimentos </a></li>
+                <li class="cabecalho-link"><a href="#" id="contatos"> Contatos </a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:ital,wght@1,300&family=Niconne&display=swap" rel="stylesheet">
-    </head>
+    <main>
 
-    <body>
-        
-        <header>
-
-            <div class="caixa">
-
-                <h1> <img src="Imagens/perfil.png"> </h1>
-
-                <nav>   
-                
-                    <ul>
-
-                        <li><a href="index.html">Home </a></li>
-                        <li><a href="pdf/curriculo.pdf" target="_blank"> Currículo </a></li>
-                        <li><a href="contato.html"> Contato </a></li>
-
-                    </ul>
-
-                </nav>
-
+        <section class="sobre container">
+            <div class="sobre-conteudo">
+                <h1 class="sobre titulo"> Sobre mim </h1>
+                <p class="sobre-paragrafo">Olá, eu me chamo Matheus e atualmente tenho 19 anos. Sou formado em Infraestrutura e Redes, e programação Front-End. Atualmente, trabalho como Analista de Suporte para cliente do Sistema Dunamis, um software de venda de roupa em atacado ou varejo.</p>
+                <p class="sobre-paragrafo">Sempre venho estudando novas linguagens, a próxima que tenho em mente é PHP, mesmo eu tendo foco em Front-End, tenho bastante vontade de aprender o Back-End também, tanto que a última linguagem que eu estudei foi JAVA.</p>
+                <p class="sobre-paragrafo">Estou com planos de voltar a cursar Ciência da computação, porém ainda não achei uma faculdade que eu acredite que irei me enquadrar, mas, enquanto isso, faço diversos Bootcamps online. </p>
             </div>
-        
-        </header>
+    </section>
 
-        <main>	
+    <section class="conhecimento container">
+        <div class="conhecimento-conteudo">
+            <h1 class="conhecimento titulo"> Conhecimentos</h1>
+            <h2 class="conhecimento-subtitulo"> Temos conhecimento nas seguintes linguagens:</h2>
 
-            <ul class="curriculo">
-
-                <li id="sobre-mim"><a href="sobre_mim.html">
-                    <h2> Quem é o Matheus? </h2>
-                    <img class="imagens" src="Imagens/foto.png" alt="Cartoon do Matheus">
-                    <p class="descricao"> Aqui estará um pouco sobre mim, como me interessei pelo mundo
-                        da tecnológia, como comecei a programar.
-                    </p>
-                </a>
-                </li>
-                    
-                <li id="formacao"> <a href="formacao.html">
-                    <h2> Formações e Cursos </h2>
-                    <img class="imagens" src="Imagens/educacao.png">
-                    <p class="descricao"> Aqui falo um pouco dos meus cursos e a faculdade, 
-                        mostrando o que aprendi e como estou me desenvolvendo mais com os estudos.
-                    </p>
-                    
-                </a></li>
-
-                <li id="experiencia"><a href="experiencias.html">
-                    <h2> Experiências Profissionais </h2>
-                    <img class="imagens" src="Imagens/experiencia.png">
-                    <p class="descricao"> Aqui falo sobre minhas experiências profissionais, que 
-                        me ajudaram a me alavancar mais meu conhecimento...
-                    </p>
-                </a></li>
-                <li id="hobbies"><a href="hobbies.html">
-                    <h2>Hobbies</h2>
-                    <img class="imagens" src="Imagens/hobbies.png" alt="Uma imagem com uma câmera, raquete de tênis, bola de basquete
-                    golf, e outros objetos">
-                    <p class="descricao">Um breve resumo sobre o que eu gosto de fazer
-                        durante meu tempo livre, contendo os jogos que curto, musicas e 
-                        mais...</p>      
-                </a></li>
+            <ul class="listagem">
+                <li class="conhecimento-imagens"><img src="img/html.png" alt="Logo Html"></li>
+                <li class="conhecimento-imagens"><img src="img/css.png" alt="Logo css"></li>
+                <li class="conhecimento-imagens"><img src="img/javascript.png" alt="Logo javascript"></li>
+                <li class="conhecimento-imagens"><img src="img/java.png" alt="Logo java"></li>
+                <li class="conhecimento-imagens"><img src="img/CSharp.png" alt="Logo C#"></li>
             </ul>
 
-        </main>
+            <h2 class="conhecimento-subtitulo">E nos seguintes Banco de Dados:</h2>
+            <ul class="listagem">
 
-        <footer>
+                <li class="conhecimento-imagens"><img src="img/mysql.png" alt="Logo MySql"></li>
+                <li class="conhecimento-imagens"><img src="img/nodejs.png" alt="Logo NodeJs"></li>
 
-            <img src="Imagens/logo.png" alt="Cartoon do Matheus">
-            <p class="copyright">&copy; Copyright Matheus Da Silva - 2021</p>
+            </ul>
+        </div>
+    </section>
 
+    <section class="contatos container">
+        <div class="contato-conteudo">
 
-        </footer>
+            <h1 class="Contatos titulo"> Contatos</h1>
 
-    </body>
+            <ul class="contatos-lista">
+                <li class="contato-img"><a href="https://www.linkedin.com/in/matheus-silva25/" target="blank"><img src="img/linkedin.png" alt="Logo Linkedin"></a></li>
+                <li class="contato-img"><a href="https://www.instagram.com/_matthsz/" target="blank"><img src="img/instagram.png" alt="Logo Instagram"></a></li>
+                <li class="contato-img"><a href="https://github.com/Matth998" target="blank"><img src="img/github.png" alt="Logo Github"></a></li>
+                <li class="contato-img"><a href="https://twitter.com/matth4214" target="blank"><img src="img/twitter.png" alt="Logo Twitter"></a></li>
+            </ul>
+        </div>
+    </section>
 
+    </main>
+
+    <footer>
+
+        <img src="img/logo.png" alt="Cartoon do Matheus">
+        <p class="copyright">&copy; Copyright Matheus Da Silva - 2021 </p>
+
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
 </html>

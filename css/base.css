@@ -1,0 +1,49 @@
+:root{
+
+    --azul-claro: #3ea4c4;
+    --vermelho: #91140e;
+    --vermelho-claro: #505050;
+    --preto: #000000;
+    --branco: #FFF;
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+
+}
+
+.container{
+
+    padding-right: 6%;
+    padding-left: 6%;
+
+}
+
+.titulo{
+
+    font-family: var(--montserrat);
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (min-width: 730px){
+
+    .titulo{
+
+        text-align: left;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
+
