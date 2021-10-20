@@ -1,7 +1,6 @@
 .contatos{
 
-    background: var(--vermelho-claro);
-    color:var(--branco);
+    background: var(--cinza-claro);
 
     padding-bottom: 3rem;
     padding-top: 3rem;
@@ -21,7 +20,8 @@
 
 .contato-img{
 
-    border: 4px solid var(--branco);
+    border: 5px solid;
+    border-image: linear-gradient(245deg, #0f0c7e, #1b16e9) 1;
     border-radius: 16px;
     padding: 1.5rem;
 

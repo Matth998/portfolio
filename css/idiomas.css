@@ -1,0 +1,22 @@
+.idioma{
+
+    background: var(--vermelho-claro);
+    color: var(--branco);
+
+}
+
+.idioma-conteudo{
+
+    padding-top: 1.5rem;
+
+}
+
+.idiota-linha{
+
+    font-family: var(--montserrat);
+    font-size: 1.4rem;
+
+    line-height: 1rem;
+
+    padding-bottom: 2rem;
+}
