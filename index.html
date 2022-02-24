@@ -6,126 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/conhecimento.css">
-    <link rel="stylesheet" href="css/idiomas.css">
-    <link rel="stylesheet" href="css/contatos.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <title>Matheus Silva</title>
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/icon.ico">
+    <title>Matheus da Silva</title>
 </head>
 <body>
     
-    <header class="cabecalho container">
-        <img class="cabecalho-imagem" src="img/logo-250px.png" alt="Cartoon do Matheus">
+    <input type="checkbox" id="active-dark-mode" class="active-dark-mode">
+
+    <div class="dark-mode">
+
+        <div class="bottom-dark"  >
+            <label for="active-dark-mode" id="active-dark-mode">
+                <img class="icon-lamp" id="icon-lamp" src="img/lamp-on.png" alt="icon-lamp">
+                Dark<br>Mode
+            </label>
+        </div>
+
+         <div class="default-pege">
+
+            <header class="container header">
+
+                <img width="105px" height="130px"src="img/logo-250px.png" alt="Photo of Matheus" class="img-header"/>
+
+                <nav id="nav" class="class-nav">
+
+                    <button id="btn-mobile">
+                        <span id = "hambuguer"></span>
+                    </button>
+
+                        <ul class="nav-ul">
+                            <li class="nav-li"><a href="index.html">About</a></li>
+                            <li class="nav-li"><a href="pdf/curriculo.pdf" target="blank">Curriculum</a></li>
+                            <li class="nav-li"><a href="Skills.html">Skills</a></li>
+                            <li class="nav-li"><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                </nav>
+
+            </header>
+
         
-        <nav  id = "nav"class="cabecalho-nav">
-            <ul>
-                <li class="cabecalho-link"><a href="#" id="sobre"> Sobre</a></li>
-                <li class="cabecalho-link"><a href="pdf/curriculo.pdf" target="blank"> Curriculo </a></li>
-                <li class="cabecalho-link"><a href="#" id="conhecimentos"> Conhecimentos </a></li>
-                <li class="cabecalho-link"><a href="#" id="contatos"> Contatos </a></li>
-            </ul>
-        </nav>
-    </header>
+            <main>
+                <section class="container about">
+                    <h1 class="title">About Me</h1>
 
-    <main>
+                    <p class="paragraph">  Hello, I'm Matheus, I'm 19 years old. I'm a Full Stack Developer | Java. 
+                        I currently develop and maintain the website for 
+                        <a class="external-links" href="http://teatrobtc.org/?utm_source=gmb&utm_medium=referral" target="blank"> Teatro BTC</a> 
+                        and I'm developing the <a class="external-links" href="https://www.instagram.com/mansaoteatro/" target="blank">Mansão Teatro Tatuapé.</a>
+                    </p>
+                    <p class="paragraph"> I have always been studying new languages, today I am part of the 
+                        <a class="external-links" href="https://brazil.generation.org/?gclid=Cj0KCQiA4b2MBhD2ARIsAIrcB-Q5R08zX6fF-YD5JA4tY_b59xqC58UJFXJFBmpX8hnHJRT5_gmMjmoaAmxLEALw_wcB" target="blank">Generation Brazil</a>
+                    </p>
+                    <p class="paragraph">
+                        I've worked as a graphic designer, using Cinema 4D, After Effects, PhotoShop and Premiere.
+                    </p>
 
-        <section class="sobre container">
-            <div class="sobre-conteudo">
-                <h1 class="sobre titulo"> Sobre mim </h1>
-                <p class="sobre-paragrafo">Olá, eu me chamo Matheus e atualmente tenho 19 anos. Sou um desenvolvedor Full Stack | Java. Atualmente, desenvolvo e cuido do site do <a class="links-externos" href="http://teatrobtc.org/?utm_source=gmb&utm_medium=referral" target="blank">Teatro BTC</a> e estou desenvolvendo o do <a class="links-externos" href="https://www.instagram.com/mansaoteatro/" target="blank">Mansão Teatro Tatuapé</a></p>
-                <p class="sobre-paragrafo">Sempre venho estudando novas linguagens, hoje estou fazendo parte da <a class="links-externos" href="https://brazil.generation.org/?gclid=Cj0KCQiA4b2MBhD2ARIsAIrcB-Q5R08zX6fF-YD5JA4tY_b59xqC58UJFXJFBmpX8hnHJRT5_gmMjmoaAmxLEALw_wcB" target="blank">Generation Brasil</a>.</p>
+                        <ul class="list">
+                            <li class="knowledgeimg"><img width = "34px" height="34px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" />
+                            </li>
+                            <li class="knowledgeimg"><img width = "34px" height="34px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
+                            </li>
+                            <li class="knowledgeimg"><img width = "34px" height="34px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" />
+                            </li>
+                            <li class="knowledgeimg"><img src="img/C4D.png" alt=""></li>
+                        </ul>
+
+                    <video src="img/introducao.mp4" controls class="about-video"></video>
+
+                </section>
                 
-                <p class="sobre-paragrafo">Já trabalhei como designer gráfico, utilizando o Cinema 4D, After Effects, PhotoShop e Premiere</p>
-                
-                <ul class="listagem">
-                    <li class="conhecimento-imagens"><img src="img/C4D.png" alt="Logo CD4"></li>
-                    <li class="conhecimento-imagens"><img width="34" heigth="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" alt="Logo AfterEffects"/></li>
-                    <li class="conhecimento-imagens"><img width="34" heigth="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Logo Premiere"/></li>
-                    <li class="conhecimento-imagens"><img width="34" heigth="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Logo PhotoShop"/></li>
-                </ul>
+                <footer>
 
-                <p class="sobre-paragrafo">Abaixo um exemplo de um introdução feita por mim, nela foi utilizado, Cinema 4D e After Effects</p>
+                    <img src="img/logo-250px.png" alt="Logo">
+                    <p class="copyright">&copy; Copyright Matheus Da Silva - 2022 </p>
+    
+                </footer>
 
-                <video src="img/introducao.mp4" controls class="sobre-video"></video>
+    <script src="js/dark-mode.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src = "js/menu.js"></script>
+    <script src= "js/slider.js"></script>
 
-            </div>
-    </section>
-
-    <section class="conhecimento container">
-        <div class="conhecimento-conteudo">
-            <h1 class="conhecimento titulo"> Conhecimentos</h1>
-            <h2 class="conhecimento-subtitulo"> Tenho conhecimento nas seguintes linguagens:</h2>
-
-            <ul class="listagem">
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo Html"/></li>
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS"/></li>
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript"/></li>
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo Java"/></li>
-
-            </ul>
-
-            <h2 class="conhecimento-subtitulo">Nos Frameworks: </h2>
-            <ul class="listagem">
-
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Logo Angular"/></li>
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="Logo React"/></li>
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Logo Spring"/></li>
-
-            </ul>
-
-            </ul>
-
-            <h2 class="conhecimento-subtitulo">E nos seguintes Banco de Dados:</h2>
-            <ul class="listagem">
-
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo MySQL"/> </li>
-                <li class="conhecimento-imagens"><img width = "100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Logo MySQL"/></li>
-
-            </ul>
-        </div>
-    </section>
-
-    <section class="idioma container">
-        <div class="idioma-conteudo">
-
-            <h1 class="titulo"> Idiomas </h1>
-
-            <ul class="idioma-lista">
-                <li class="idiota-linha"> Português - Nativo</li>
-                <li class="idiota-linha"> Inglês - Fluente </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="contatos container">
-        <div class="contato-conteudo">
-
-            <h1 class="Contatos titulo"> Contatos</h1>
-
-            <ul class="contatos-lista">
-                <li class="contato-img"><a href="https://www.linkedin.com/in/matheus-silva25/" target="blank"><img width = "200" height="200" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Logo Linkedin"/></a></li>
-                <li class="contato-img"><a href="https://www.instagram.com/_matthsz/" target="blank"><img src="img/instagram.png" alt="Logo Instagram"></a></li>
-                <li class="contato-img"><a href="https://github.com/Matth998" target="blank"><img width = "200" height="200" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Logo Github"/></a></li>
-            </ul>
-        </div>
-    </section>
-
-    </main>
-
-    <footer>
-
-        <img src="img/logo-250px.png" alt="Cartoon do Matheus">
-        <p class="copyright">&copy; Copyright Matheus Da Silva - 2021 </p>
-
-    </footer>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/index.js"></script>
+    
 </body>
 </html>

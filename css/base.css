@@ -1,59 +1,132 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: var(--colorText-default);
+  }
+
 :root{
 
-    --azul-claro: #3ea4c4;
-    --vermelho: #91140e;
-    --vermelho-claro: #a71710;
-    --preto: #000000;
-    --branco: #FFF;
-    --cinza-claro: #ebebeb;
-    --montserrat: 'Montserrat', sans-serif;
-    --open-sans: 'Open Sans', sans-serif;
+    --colorPage-primary: linear-gradient(#7962DF, #745ED7);
+    --black: #000000;
+    --white: #FFFFFF;
+    --red-gradient: linear-gradient(-180deg, #7e0c0c, #e91616);
+    --blue: #1b16e9;
+    --colorText-default: #000000;
+    --noto: font-family: 'Noto Serif Display', serif;
 
+}
+
+body {
+    background: var(--colorPage-primary);
+}
+
+.bottom-dark label {
+    cursor: pointer;
+}
+
+label{
+    display: flex;
+  }
+  
+.bottom-dark {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 6.5rem;
+    height: 3rem;
+    position: absolute;
+    background-color: var(--colorPage-primary);
+}
+  
+.bottom-dark label {
+    cursor: pointer;
 }
 
 .container{
 
-    padding-right: 6%;
     padding-left: 6%;
+    padding-right: 6%;
 
 }
 
-.titulo{
+.title{
 
-    font-family: var(--montserrat);
-    font-size: 1.9rem;
+    font-family: var(--noto);
     font-weight: 700;
+    font-size: 35px;
     text-align: center;
-    text-transform: uppercase;
+    color: var(--white);
 
+    padding-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.paragraph{
+
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    color: var(--white);
+    line-height: 1.2em;
+    margin-top: .2em;
+
+}
+
+.external-links{
+
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
 
 }
 
-.links-externos{
 
-    color: var(--preto);
-    text-decoration: none;
-    font-weight: 700;
+.knowledgeimg{
 
+    padding-top: 1.5rem;
 
+}
+
+footer{
+
+    text-align: center;
+    padding: 10px 0;
+    
 }
 
 @media screen and (min-width: 730px){
 
-    .titulo{
-
-        text-align: left;
-
-    }
-
-}
-
-
-@media screen and (min-width: 1024px) {
     .container {
         padding-left: calc((100% - 940px)/2);
         padding-right: calc((100% - 940px)/2);
     }
-}
 
+    .title{
+
+        font-size: 50px;
+        text-align: left;
+    
+    }
+    
+    .paragraph{
+    
+        font-size: 25px;
+    
+    }
+
+}

@@ -1,0 +1,21 @@
+.active-dark-mode {
+    display: none;
+    position: absolute;
+  }
+  
+  /* Rewrite default definitions*/
+.active-dark-mode:checked ~ .dark-mode { 
+    --colorPage-primary: #202020;
+    --colorText-default: white;
+}
+
+.active-dark-mode:checked ~ .dark-mode header {
+    background-color: var(--colorPage-primary);
+}
+
+.active-dark-mode:checked ~ .dark-mode main {
+    background-color: var(--colorPage-primary);
+}
+.active-dark-mode:checked ~ .dark-mode footer {
+    background-color: var(--colorPage-primary);
+}

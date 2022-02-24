@@ -1,0 +1,179 @@
+.header{
+
+    box-sizing: border-box;
+
+    height: 140px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+}
+
+.img-header{
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+
+}
+
+.class-nav{
+
+    text-align: center;
+
+}
+
+.nav-ul{
+
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    right: 0px;
+    height: 0;
+    background: var(--colorPage-primary);
+    transition: .6s;
+    z-index: 10000;
+    visibility: hidden;
+    overflow-y: auto;
+
+}
+
+#nav.active .nav-ul{
+
+    height: calc(100vh - 140px);
+    display: block;
+    visibility: visible;
+
+}
+
+#btn-mobile{
+
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+#hambuguer{
+
+    color: var(--white);
+    border-top: 2px solid;
+    width: 20px;
+
+}
+
+#hambuguer::after, #hambuguer::before{
+
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+
+}
+
+#nav.active #hambuguer{
+
+    border-top-color: transparent;
+
+}
+
+#nav.active #hambuguer::before{
+
+    transform: rotate(135deg);
+
+}
+
+#nav.active #hambuguer::after{
+
+    transform: rotate(-135deg);
+    top: -7px;
+
+}
+
+.nav-li{
+
+    margin-top: 1rem;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+
+}
+
+.nav-li a{
+
+    display: block;
+    font-family:var(noto);
+    font-weight: 700;
+
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 2em;
+
+    color: var(--white);
+
+}
+@media screen and (min-width: 730px){
+
+    .header{
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-header{
+
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .nav-ul{
+
+        display: flex;
+        gap: .5rem;
+        background: none;
+        visibility: visible;
+        overflow-y: visible;
+        position: relative;
+        right: auto;
+        top: auto;
+
+    }
+
+    .img-header{
+
+        padding-left: 2em;
+    
+    }
+
+    .nav-li a{
+    
+        display: block;
+        font-size: 30px;
+
+        padding-left: .5em;
+        padding-right: .5em;      
+    
+    }
+
+    #btn-mobile{
+
+        display: none;
+
+    }
+
+}

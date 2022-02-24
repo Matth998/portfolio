@@ -1,13 +1,4 @@
-.contatos{
-
-    background: var(--cinza-claro);
-
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-
-}
-
-.contatos-lista{
+.contacts-list{
 
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +9,14 @@
 
 }
 
-.contato-img{
+.img-project{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.contacts-img{
 
     border: 5px solid;
     border-image: linear-gradient(245deg, #0f0c7e, #1b16e9) 1;
