@@ -9,12 +9,26 @@
 
 }
 
+.img-project{
+
+    width: 100px;
+    height: 100px;
+
+}
+
 @media screen and (min-width: 730px){
 
     .paragraph-slide{
 
         font-size: 25px;
         margin-right: 5em;
+
+    }
+    
+    .img-project{
+
+    width: auto;
+    height: auto;
 
     }
 }
